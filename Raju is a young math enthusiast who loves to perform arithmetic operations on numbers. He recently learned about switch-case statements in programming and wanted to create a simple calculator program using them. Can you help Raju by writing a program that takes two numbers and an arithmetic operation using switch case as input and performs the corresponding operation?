@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int num1,num2;
+    char ch;
+    cin>>num1>>num2>>ch;
+    switch(ch){
+        case '+':
+            cout<<"The addition of the given numbers is "<<num1+num2<<"."<<endl;
+            break;
+        case '-':
+            cout<< "The subtraction of the given numbers is "<<num1-num2<<"."<<endl;
+            break;
+        case '*':
+            cout<< "The multiplication of the given numbers is "<<num1*num2<<"."<<endl;
+            break;
+        case '/':
+        
+             cout<<num1 / num2 << endl;
+             break;
+        default:
+                cout<<"invalid operation"<<endl;
+                break;
+            }
+                        
+    }
